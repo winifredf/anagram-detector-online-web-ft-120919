@@ -18,9 +18,6 @@ def match(array_of_words)
       (@word.split("").sort) == (element.split("").sort)
     end
   end
-  
-  
-end
 
 listen = Anagram.new("listen")
 #listen.match(%w(enlists))
